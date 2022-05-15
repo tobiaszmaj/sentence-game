@@ -6,7 +6,7 @@ A sentence game made with React, Redux and Typescript.
 
 ## Demo
 
-Check out the demo! - [LINK]()
+Check out the demo! - [LINK](https://sentence-game-tobiaszmaj.vercel.app/)
 
 ## Technologies
 
