@@ -1,6 +1,6 @@
-# Portfolio
+# Sentence game
 
-A sentence game made with React and Typescript.
+A sentence game made with React, Redux and Typescript.
 
 ![Design preview](preview.gif)
 
