@@ -1,0 +1,13 @@
+{
+    "title": "Odpovězte k dokončení věty",
+    "inputs": {
+        "who": "Kdo?",
+        "what": "Co?",
+        "when": "Kdy?",
+        "where": "Kde?"
+    },
+    "buttons": {
+        "next": "Další",
+        "back": "Vrať"
+    }
+}

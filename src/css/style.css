@@ -1,0 +1,239 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+body {
+    text-transform: uppercase;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background: #009FFF;
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+    background: linear-gradient(to right, #ec2F4B, #009FFF);
+    color: #383838;
+    overflow: hidden;
+}
+
+.main {
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+.languages {
+    width: 325px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.languages__button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    background: transparent;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.card {
+    background-color: rgba(47, 47, 47, 0.88);
+    max-width: 400px;
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px #fff;
+}
+
+.center {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+label {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 800;
+    color: #FFF;
+}
+
+input {
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border-radius: 0.5rem;
+    border: 1px solid #adadad;
+    outline: none;
+    transition: all 250ms ease;
+    background-color: #ececec;
+}
+
+input:hover,
+input:active,
+input:focus {
+    border: 3px solid #00c7ec;
+    background-color: #fff;
+}
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #00c7ec;
+    border: 1px solid #00c7ec;
+    border-radius: 5px;
+    line-height: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 20px;
+}
+
+.button:hover {
+    color: white;
+    box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+    background-color: #00c7ec;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.button:hover:before {
+    -webkit-animation: shine 0.5s 0s linear;
+    -moz-animation: shine 0.5s 0s linear;
+    animation: shine 0.5s 0s linear;
+}
+
+.button:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.button:before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: white;
+    box-shadow: 0 0 15px 3px white;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+@-webkit-keyframes shine {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+@-moz-keyframes shine {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+@keyframes shine {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+.validator {
+    margin: 10px 0;
+}
+
+.note {
+    color: rgb(178, 4, 4);
+}
+
+.sentence {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    text-transform: none;
+}

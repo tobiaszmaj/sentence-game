@@ -1,0 +1,13 @@
+{
+    "title": "Answer to Complete Sentence",
+    "inputs": {
+        "who": "Who?",
+        "what": "What?",
+        "when": "When?",
+        "where": "Where?"
+    },
+    "buttons": {
+        "next": "Next",
+        "back": "Back"
+    }
+}

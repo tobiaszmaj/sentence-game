@@ -1,0 +1,13 @@
+{
+    "title": "Odpowiedz by ukończyć zdanie",
+    "inputs": {
+        "who": "Kto?",
+        "what": "Co?",
+        "when": "Kiedy?",
+        "where": "Gdzie?"
+    },
+    "buttons": {
+        "next": "Dalej",
+        "back": "Wróć"
+    }
+}
